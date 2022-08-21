@@ -1,0 +1,195 @@
+html{
+    background: black;
+    transition:2s;
+}
+   
+
+*{
+    margin: auto;
+    padding: 0;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0;
+    
+}
+nav ul li  {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: #ed2353;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ed2353;
+    
+}
+nav ul li a:hover{
+    color: white;
+    
+}
+
+.btn{
+    padding: 10px 40px;
+    color: aliceblue;
+    background-color: #ed2353;
+    border-radius: 5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    box-shadow: 0 0 10px white;
+}
+.logo1{
+    box-shadow: 1px 1px 3px white;
+}
+.logo1:hover{
+    box-shadow:0 0 10px #ed2353 ;
+}
+.img1{
+    position: relative;
+    left: 62%;
+    margin-top: 12%;
+    border-radius: 2em;
+    box-shadow: 0 0 14px #ed2353;
+    cursor: pointer;
+}
+.img1:hover{
+    box-shadow: 0 0 40px white;
+}
+
+   
+
+
+.temp1{
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-top: -22%;
+    margin-left: 10%;
+    font-size:15px ;
+    color: white;
+   
+}
+.temp2{
+    
+    margin-top: 27px;
+    margin-left: 9.3%;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 5s;
+    color: white;
+}
+.temp3{
+    color: #ed2353;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.temp4{
+    margin-left: 9.3%;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+.cp1{
+    color: #ed2353;
+}
+.newslatter {
+    position: relative;
+    margin-left: 9.3%;
+    margin-top: 20px;
+    
+    
+}
+.newslatter input:first-child{
+    display: inline-block;
+    outline: none;
+    padding: 14px 110px 14px 15px;
+    position: relative;
+    border-radius: 1em;
+    border: 3px solid #ed2353;
+}
+
+.box{
+    padding: 10px;
+    border-radius: 1em;
+    border: 1px solid black;
+    background-color:#ed2353 ;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 10px white ;
+}
+.header i{
+   display: none;
+    color: white;
+}
+.links a{
+    color: #ed2353;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    display: block;
+    margin-left: 20px;
+    margin-top: -16px;
+
+
+}
+  
+
+
+
+
+
+
+@media screen and (max-width:1023px){
+    nav ul li{
+        display: none;
+
+    }
+    .header i{
+        display: flex;
+        color: white;
+        margin-left: 30%;
+    }
+
+    .img1{
+        display: none;
+    }
+    .heading{
+        margin-top: 240px;
+    
+    }
+
+    .cr1{
+     margin-left: auto;
+
+    }
+    .header i{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+   
+    
+ 
+   
+    
+
+}
+
+
+
+   
+
+
+
+
